@@ -10,6 +10,10 @@ class App extends Component {
     this.state = {
       posts: []
     };
+
+
+
+    
     this.updatePost = this.updatePost.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
     this.handlePost = this.handlePost.bind(this);
